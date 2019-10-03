@@ -24,12 +24,12 @@ public class MyLinkedList {
         while (temp != null) {
             if (currentIndex == index) {
                 return temp.getValue();
-            }else {
-                temp=temp.getNext();
+            } else {
+                temp = temp.getNext();
                 currentIndex++;
             }
         }
-        throw  new IllegalArgumentException();
+        throw new IllegalArgumentException();
     }
 
     public String toString() {
