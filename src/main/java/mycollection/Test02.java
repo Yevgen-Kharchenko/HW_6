@@ -1,3 +1,7 @@
+package mycollection;
+
+import mycollection.MyLinkedList;
+
 public class Test02 {
     public static void main(String[] args) {
         MyLinkedList myLinkedList = new MyLinkedList();
